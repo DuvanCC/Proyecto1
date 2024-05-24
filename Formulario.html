@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .centrar {/* Centrar titulo especifico */
+            text-align: center;
+        }
+        .centrar-tabla {/* Centrar tabla específica */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .centro {
+            text-align: center; /* Centrar el contenido de la celda específica */
+        }
+        table {
+            border-collapse: collapse; /* Combina los bordes de las celdas para un aspecto más limpio */
+            width: 100%; /* Ajusta el ancho de la tabla */
+            
+        }
+    </style>
+
+</head>
+<body>
+    <form action="">
+        <table class="centrar-tabla">
+            <tr>
+                <td colspan="2">
+                    <table>
+            
+                        <tr>
+                            <td class="centro"><h1>Solicitud de Crédito Personal</h1></td>
+                            
+                        </tr>
+                    </table>
+                </td>
+                <td colspan="2"> <table border="1">
+                    <tr>
+                        <td><h2>Crédito No.</h2></td>
+                    </tr>
+                     </table>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td rowspan="6" class="centro"><input type="image" src="D:\Salvar\Udenar_Ingeniría de sistemas\semestre 11\Seminario 1\Imagenes\logo_confacredito.jpg"></td> 
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                    </table>
+                </td>
+                
+                <td >
+                    <table border="1">
+                        <tr><td rowspan="2"> Destinación del crédito: <br>............................................................................</td></tr>
+                        <tr></tr>
+                        <tr><td rowspan="2">Valor solicitado: <br>. </td></tr>
+                        <tr></tr>
+                        <tr><td rowspan="2"> <label for="">Trabajador</label> <input type="radio" name="Trabajador" id="Trabajador">
+                                             <label for="">...........Pensionado</label> <input type="radio" name="Pensionado" id="Pensionado"> <br>. </td></tr>
+                        <tr></tr>
+                    </table>
+                </td>
+                
+                <td >
+                    <table border="1">
+                        <tr><td rowspan="4">Forma de pago: <br>
+                            <label for="">Nómina (libranza)..____________</label> <input type="radio" name="libranza" id="libranza"> <br>
+                            <label for="">Plazo subcidio________________</label> <input type="radio" name="Subsidio" id="Subsidio"><br>.</td></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr><td rowspan="2">Ordenado: <br>. </td></tr>
+                        <tr></tr>
+                    </table>
+                </td>
+            
+                <td >
+                    <table border="1">
+                        <tr><td rowspan="3">Nombre del asesor: <br>. <br>..............................................................</td></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr><td rowspan="3">Fecha de  radicación: <br>. <br>.</td></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    </table>
+                </td>
+                
+            </tr>
+        </table>
+        <h4 class="centrar">DATOS DEL SOLICITANTE</h4>
+        <table class="centrar-tabla" border="1">
+            <tr>
+                <td>Nombre(s): <br>.</td>
+                <td>Primer apellido: <br>.</td>
+                <td colspan="3">Segundo apellido: <br>.</td>
+            </tr>
+            <tr>
+                <td>Fecha de nacimiento: <br>. </td>
+            
+                <td>Documento de identidad No. <br>.</td>
+                
+                <td colspan="3">Edad: <br>.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Estado civil <br>
+                    <label for="">Casado</label> <input type="radio" name="Casado" id="Casado">
+                    <label for="">Soltero</label> <input type="radio" name="Soltero" id="Soltero">
+                    <label for="">Separado</label> <input type="radio" name="Separado" id="Separado">
+                    <label for="">Divorciado</label> <input type="radio" name="Divorciado" id="Divorciado">
+                    <label for="">Viudo</label> <input type="radio" name="viudo" id="viudo">
+                    <label for="">Unión libre</label> <input type="radio" name="Unión libre" id="Unión libre"> </td>
+                <td colspan="3">No.personas a cargo: <br>. </td>
+            </tr>
+            <tr>
+                <td>Direccion residencia: <br>.</td>
+                <td>Barrio: <br>. </td>
+                <td>Municipio: <br>.</td>
+                <td colspan="2">Estrato: <br>.</td>
+            </tr>
+            <tr>
+                <td>Telefono: <br>.</td>
+                <td>Celular: <br>.</td>
+                <td colspan="3">Correo electrónico: <br>.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Vivienda: <br>
+                    <label for="">Propia</label> <input type="radio" name="Propia" id="Propia">
+                    <label for="">Arrendada</label> <input type="radio" name="Arrendada" id="Arrendada">
+                    <label for="">Familiar</label> <input type="radio" name="Familiar" id="Familiar"></td>
+                <td colspan="3">Nivel educativo: <br>
+                    <label for="">Primaria</label> <input type="radio" name="Casado" id="Casado">
+                    <label for="">Secundaria</label> <input type="radio" name="Soltero" id="Soltero">
+                    <label for="">universidad</label> <input type="radio" name="Separado" id="Separado">
+                    <label for="">Otro:</label></td>
+            </tr>
+            <tr>
+                <td>Empresa donde labora: <br>. </td>
+                <td>Cargo: <br>.</td>
+                <td colspan="3">Municipio <br>.</td>
+            </tr>
+            <tr>
+                <td>Correo electrónico empresa: <br>.</td>
+                <td>Telefono empresa: <br>.</td>
+                <td>Celular: <br>.</td>
+                <td>Aportes: <br>.</td>
+                <td>No.Trab. <br>.</td>
+            </tr>
+        </table>
+        <h4 class="centrar">DATOS DEL CÓNYUGUE COMPAÑERA(O)</h4>
+        <table class="centrar-tabla" border="1">
+            <tr>
+                <td>Nombre(s) <br>.</td>
+                <td>Primer apellido:<br>.</td>
+                <td>Segundo apellido <br>.</td>
+                <td>Numero de identidad No. <br>.</td>
+            </tr>
+            <tr>
+                <td>Empresa donde labora: <br>.</td>
+                <td>Cargos:<br>.</td>
+                <td>Ingresos Mensuales: <br>.</td>
+                <td>Telefono/celular: <br>. </td>
+            </tr>
+        </table>
+        <h4 class="centrar">INGRESOS Y DEDUCCIONES</h4>
+        <table class="centrar-tabla" border="1">
+            <tr>
+                <td colspan="2" class="centro">Ingresos</td>
+                <td colspan="2" class="centro">Deducciones de nómina</td>
+            </tr>
+            <tr>
+                <td>Salario básico mensual..................</td>
+                <td>$________________________________</td>
+                <td>Deducciones/Descuentos por nómina</td>
+                <td>$______________________</td>
+            </tr>
+            <tr>
+                <td>Auxilio de tranporte  </td>
+                <td>$</td>
+                <td>Otros gastos</td>
+                <td>$</td>
+            </tr>
+            <tr>
+                <td>Otros ingresos</td>
+                <td>$</td>
+                <td>Total gastos</td>
+                <td>$</td>
+            </tr>
+            <tr>
+                <td>TOTAL INGRESOS</td>
+                <td>$</td>
+                <td rowspan="4" colspan="2">Tipo de contrato: <br> 
+                    <label for="">Termino fijo</label> <input type="radio" name="Termino fijo" id="Termino fijo">
+                    <label for="">Indefinido</label> <input type="radio" name="Indefinido" id="Indefinido">
+                    <label for="">Temporal</label> <input type="radio" name="Temporal" id="Temporal">
+                    <label for="">Por labor</label> <input type="radio" name="Por labor" id="Por labor"> <br>
+                    <label for="">Carrera administrativo </label> <input type="radio" name="Carrera administrativo" id="Carrera administrativo"> 
+                    <label for="">Libre: nombramiento o remocion</label><input type="radio" name="Libre:nombramiento o remocion" id="Libre:nombramiento o remocion"> 
+                    <label for="">Provisional</label> <input type="radio" name="Provisional" id="Provisional">
+                    <label for="">Prestación de servicios</label> <input type="radio" name="Prestacion de servicios" id="Prestacion de servicios">
+                    <p>Si tiene contrato a término fijo por favor especifique la duración del mismo en
+                       <br> meses </p> </td>
+            </tr>
+            <tr>
+                <td>Cesantías a la fecha</td>
+                <td>$</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">Tiempo de servicios <br>. <br>. <br>.</td>
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                <td colspan="4" >Certificamos que la empresa realiza descuentos directos de nómina (libranza) para Confa:<br> 
+                     <label for="">Si</label> <input type="radio" name="descuento" id="descuento">
+                     <label for="">No</label> <input type="radio" name="descuento" id="descuentos"> <br>. <br>
+                     ................................................................................................................................._____________________________________________________________<br>
+                     ...................................................................................................................................................Nombre de la persona autorizada de la empresa</td>
+            </tr>
+        </table>
+            <h4 class="centrar">REFERENCIAS PERSONALES (que no vivan con usted)</h4>
+        <table class="centrar-tabla" border="1">
+                <tr>
+                    <td></td>
+                    <td class="centro">Nombres y apellidos</td>
+                    <td class="centro">Telefono/celular</td>
+                    <td class="centro">Ciudad</td>
+                    <td class="centro">Direccion</td>
+                    <td class="centro">Barrio</td>
+                    <td class="centro">Parentesco</td>
+                </tr>
+                <tr>
+                    <td>Personal</td>
+                    <td><br>.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Familiar</td>
+                    <td><br>.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+         
+        </table>
+        <h4 class="centrar">BIENES INMUEBLES (casa, apartamento, local, finca, terreno, otros)</h4>
+        <table class="centrar-tabla" border="1">
+            <tr>
+                <td>Tipo</td>
+                <td class="centro">Direccion</td>
+                <td class="centro">Matricula inmobiliaria</td>
+                <td class="centro">Hipoteca a favor de</td>
+                <td class="centro">Valor comercial</td>
+                <td class="centro">Patrimonio de familia</td>
+            </tr>
+            <tr>
+                <td><br>.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="centro"><label for="">Si</label> <input type="radio" name="Patrimonio" id="Patrimonio">
+                    <label for="">No</label> <input type="radio" name="Patrimonio" id="Patrimonios"></td>
+            </tr>
+            <tr>
+                <td><br>.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="centro"><label for="">Si</label> <input type="radio" name="Patrimonio" id="Patrimonio">
+                    <label for="">No</label> <input type="radio" name="Patrimonio" id="Patrimonios"></td>
+            </tr>
+        </table>
+        <h4 class="centrar">VEHÍCULOS</h4>
+        <table class="centrar-tabla" border="1">
+         <tr>
+            <td>Marca</td>
+            <td class="centro">Tipo de servicio</td>
+            <td class="centro">Modelo</td>
+            <td class="centro">Placa</td>
+            <td class="centro">Prenda a favor de</td>
+            <td class="centro">Saldo actual</td>
+            <td class="centro">Valor comercial</td>
+         </tr>
+            
+        
+         <tr>
+            <td><br>.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+        </table>
+        <h4 class="centrar">RELACIÓN DE PERSONA(S) A CARGO...............GRUPO</h4>   
+        <table class="centrar-tabla" border="1">
+            <tr>
+                <td class="centro">Nombre</td>
+                <td class="centro">Fecha nacimiento</td>
+                <td class="centro">Edad</td>
+                <td class="centro">Grado que cursa</td>
+            </tr>
+            <tr>
+                <td><br>.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><br>.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><br>.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><br>.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><br>.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <h4 class="centrar">DATOS DEL DEUDOR SOLIDARIO</h4>   
+        <table class="centrar-tabla" border="1">
+            <tr>
+                <td>Nombre(s): <br>.</td>
+                <td>Primer apellido: <br>.</td>
+                <td>Segundo apellido: <br>.</td>
+                <td>Documento de identidad No. <br>.</td>
+                <td>Edad: <br>.</td>
+            </tr>
+            <tr>
+                <td colspan="3">Estado civil <br>
+                    <label for="">Casado</label> <input type="radio" name="Casado" id="Casado">
+                    <label for="">Soltero</label> <input type="radio" name="Soltero" id="Soltero">
+                    <label for="">Separado</label> <input type="radio" name="Separado" id="Separado">
+                    <label for="">Divorciado</label> <input type="radio" name="Divorciado" id="Divorciado">
+                    <label for="">viudo</label> <input type="radio" name="viudo" id="viudo">
+                    <label for="">Unión libre</label> <input type="radio" name="Unión libre" id="Unión libre"> </td>
+                <td colspan="2">No.personas a cargo: <br>. </td></td>
+            </tr>
+            <tr>
+                <td>Direccion residencia: <br>.</td>
+                <td colspan="2">Barrio: <br>. </td>
+                <td>Municipio: <br>.</td>
+                <td>Estrato: <br>.</td>
+            </tr>
+            <tr>
+                <td>Telefono: <br>.</td>
+                <td>Celular: <br>.</td>
+                <td colspan="3">Correo electrónico: <br>.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Estrato: <br>
+                    <label for="">Propio</label> <input type="radio" name="Propia" id="Propia">
+                    <label for="">Arrendado</label> <input type="radio" name="Arrendada" id="Arrendada">
+                    <label for="">Familiar</label> <input type="radio" name="Familiar" id="Familiar"></td>
+                <td colspan="3">Nivel educativo: <br>
+                    <label for="">Primaria</label> <input type="radio" name="Casado" id="Casado">
+                    <label for="">Secundaria</label> <input type="radio" name="Soltero" id="Soltero">
+                    <label for="">universidad</label> <input type="radio" name="Separado" id="Separado">
+                    <label for="">Otro:____________________</label></td>
+            </tr>
+            <tr>
+                <td >Empresa donde labora: <br>. </td>
+                <td>Cargo: <br>.</td>
+                <td>Municipio: <br>.</td>
+                <td colspan="2">Ingresos <br>.</td>
+
+            </tr>
+            <tr>
+                <td colspan="2">Correo electrónico empresa: <br>.</td>
+                <td>teléfono: <br>.</td>
+                <td colspan="2">Celular: <br>.</td>
+            </tr>
+        </table>
+        <h4 class="centrar">INGRESOS Y DEDUCCIONES DEL DEUDOR SOLIDARIO</h4>   
+        <table class="centrar-tabla" border="1">
+            <tr>
+                <td colspan="2" class="centro">Ingresos</td>
+                <td colspan="2" class="centro">Deducciones </td>
+            </tr>
+            <tr>
+                <td>Salario básico mensual.................</td>
+                <td>$_____________________________</td>
+                <td>Deducciones/descuento</td>
+                <td>$___________________</td>
+            </tr>
+            <tr>
+                <td>Auxilio de tranporte</td>
+                <td>$</td>
+                <td>Total descuentos por nómina</td>
+                <td>$</td>
+            </tr>
+            <tr>
+                <td>Otros ingresos</td>
+                <td>$</td>
+                <td colspan="2" rowspan="4">Tipo de contrato: <br> 
+                    <label for="">Termino fijo</label> <input type="radio" name="Termino fijo" id="Termino fijo">
+                    <label for="">Indefinido</label> <input type="radio" name="Indefinido" id="Indefinido">
+                    <label for="">Temporal</label> <input type="radio" name="Temporal" id="Temporal">
+                    <label for="">Por labor</label> <input type="radio" name="Por labor" id="Por labor"> 
+                    <label for="">Prestacion de servicios</label> <input type="radio" name="Prestacion de servicios" id="Prestacion de servicios"><br>
+                    <br>
+                    <label for="">Carrera administrativo</label> <input type="radio" name="Carrera administrativo" id="Carrera administrativo">
+                    <label for="">Libre:nombramiento o remocion</label> <input type="radio" name="Libre:nombramiento o remocion" id="Libre:nombramiento o remocion">
+                    <label for="">Provisional</label> <input type="radio" name="Provisional" id="Provisional">
+                    <p>Si tiene contrato a término fijo por favor especifique la duración del mismo en
+                        meses </p></td>
+            </tr>
+            <tr>
+                <td>TOTAL INGRESOS</td>
+                <td>$</td>
+                
+            </tr>
+            <tr>
+                <td>Cesantias a la fecha</td>
+                <td>$</td>
+            </tr>
+            <tr>
+                <td colspan="2">Tiempo de servicios</td>
+            </tr>
+        </table>
+        <h4 class="centrar">REFERENCIAS PERSONALES DEL DEUDOR SOLIDARIO (que no viva von él)</h4>
+        <table class="centrar-tabla" border="1">
+                <tr>
+                    <td></td>
+                    <td class="centro">Nombres y apellidos</td>
+                    <td class="centro">Teléfono/celular</td>
+                    <td class="centro">Ciudad</td>
+                    <td class="centro">Dirección</td>
+                    <td class="centro">Barrio</td>
+                    <td class="centro">Parentesco</td>
+                </tr>
+                <tr>
+                    <td>Personal</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Familiar</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+         
+        </table>
+        <h4 class="centrar">BIENES INMUEBLES (casa, apartamento, local, finca, terreno, otros)</h4>
+        <table class="centrar-tabla" border="1">
+            <tr>
+                <td>Tipo</td>
+                <td class="centro">Direccion</td>
+                <td class="centro">Matricula inmobiliaria</td>
+                <td class="centro">Hipoteca a favor de</td>
+                <td class="centro">valor comercial</td>
+                <td class="centro">Patrimonio de familia</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="centro"><label for="">Si</label> <input type="radio" name="Patrimonio" id="Patrimonio">
+                    <label for="">No</label> <input type="radio" name="Patrimonio" id="Patrimonios"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="centro"><label for="">Si</label> <input type="radio" name="Patrimonio" id="Patrimonio">
+                    <label for="">No</label> <input type="radio" name="Patrimonio" id="Patrimonios"></td>
+            </tr>
+        </table>
+        <h4 class="centrar">VEHÍCULOS</h4>
+        <table class="centrar-tabla" border="1">
+         <tr>
+            <td>Marca</td>
+            <td class="centro">Tipo de servicio</td>
+            <td class="centro">Modelo</td>
+            <td class="centro">Placa </td>
+            <td class="centro">Prenda a favor de</td>
+            <td class="centro">Saldo actual</td>
+            <td class="centro">Valor comercial</td>
+         </tr>
+            
+        
+         <tr>
+            <td><br></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+        </table>
+        <h4 class="centrar">INFORMACIÓN DE CUENTA PAGO POR TRANSFERENCIA</h4>
+        <table class="centrar-tabla" border="1">
+            <tr>
+                <td class="centro"> Tipo de cuenta</td>
+                <td class="centro">Numero de cuenta</td>
+                <td class="centro">Entidad financiera </td>
+                <td class="centro">Ciudad</td>
+            </tr>
+            <tr>
+                <td class="centro">Ahorros....................Corriente</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <br>
+        <table class="centrar-tabla" border="1">
+            <tr>
+                <td><ol> <li> Con la firma de la presente solicitud declaramos expresamente que conocemos todas las cláusulas contenidasen esta solicitud, de la misma forma autorizamos a Confa o a quien deleque para reportar, procesar, solicitar y
+                    divulgar la información a la CENTRAL DE INFORMACIÓN FINANCIERA “CIFIN”, la cual administra la Asociación Bancaria y de Entidad Financiera de Colombia o a cualquier otra entidad que maneje o administre bases de
+                    datos con los mismo fines, la información referente a nuestro compromiso comercial. </li>
+                    <li>También autorizo a Confa para efectuar el primer desembolso del(s) producto(s) mediante abono a mi cuenta corriente o de ahorros, en efectivo o mediante giro de cheque.</li>
+                   <li>  Declaro bajlo la gravedad de juramento y con conocimiento de las responsabilidades que ello implica, que toda la información relacionada en el presente formulario y en la documentación que lo soporta coresponde
+                    rigurosamente a la verdad y es suceptible de comprobación. </li>
+                   <li> Con el diligenciamiento de este formulario y frente a los datos personales en él consignados, manifiesto que autorizo a confa para procesarlos, recolectarlos, almacenarlos, usarlos, circularlos, suprimirlos, compartirlos,
+                    actualizarlos y transmitirlos de acuerdo con los términos y condiciones de las políticas de tratamiento vigentes, con el fin de hacer posible la prestación de los servicios, para reportes a autoridades de control y vigilancia y
+                    para fines de uso administrativo, comercial, publicitarios y de contacto. <br>
+                    Como titular de la información tengo derecho a conocer, actualizar, rectificar mis datos personales, ser informado sobre el uso que se ha dado a los mismos en el momento que lo solicite, presentar quejas ante la
+                    Superintendencia de Industria y Comercio, por infracciones a la ley, revocar la autorización y/o solicitar la supresión de mis datos en los casos en que sea procedente y acceder en forma gratuita a los mismos.</li>
+                  </ol>
+                  <br><label for="">....................Firma del solicitante________________________________________....................Firma del deudor solidario___________________________________________</label> <br>.
+
+                </td>  
+            </tr>
+        </table>
+        <h4 class="centrar">DOCUMENTOS SOLICITADOS</h4>
+        <table class="centrar-tabla" border="1">
+            <tr>
+                <td class="centro">Créditos por libranza o subsidio</td>
+                <td class="centro">Trabajador</td>
+                <td class="centro">Deudor solidario</td>
+                <td class="centro">Pensionado</td>
+            </tr>
+            <tr>
+                <td>Desprendible pago mes completo (último mes)</td>
+                <td class="centro">X</td>
+                <td class="centro">X</td>
+                <td class="centro">X</td>
+            </tr>
+            <tr>
+                <td>Carta laboral actualizada (tipo de contrato, cargo, salario, tiempo servicios)</td>
+                <td class="centro">X</td>
+                <td class="centro">X</td>
+                <td class="centro">X</td>
+            </tr>
+            <tr>
+                <td>Fotocopia de la cédula ampliada al 150%</td>
+                <td class="centro">X</td>
+                <td class="centro">X</td>
+                <td class="centro">X</td>
+            </tr>
+            <tr>
+                <td>Carta de autorización de los padres, si es subsidio el que se va a pignorar</td>
+                <td class="centro">N.A.</td>
+                <td class="centro">N.A.</td>
+                <td class="centro">N.A.</td>
+            </tr>
+             
+        </table> 
+        <h4 class="centrar">ESPACIO EXCLUSIVO PARA CONFA</h4>      
+            <table class="centrar-tabla" border="1">
+                <tr>
+                    <td colspan="3" class="centro">Obligaciones del solicitante</td>
+                    <td colspan="3" class="centro">Obligaciones del codeudor</td>
+                    <td colspan="3" class="centro">Obligaciones del cónyugue</td>
+                </tr>
+                <tr>
+                    <td class="centro">Crédito No.</td>
+                    <td class="centro">Saldo</td>
+                    <td class="centro">Modalidad</td>
+                    <td class="centro">Crédito No.</td>
+                    <td class="centro">Saldo</td>
+                    <td class="centro">Modalidad</td>
+                    <td class="centro">Crédito No.</td>
+                    <td class="centro">Saldo</td>
+                    <td class="centro">Modalidad</td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="9">Firma asesor responsable:</td>
+                </tr>
+            </table>
+            <h4 class="centrar">ESPECIFICACIONES DE LA SOLICITUD</h4>
+            <table class="centrar-tabla" border="1">
+                <tr>
+                    <td colspan="4" class="centro">Subsidio</td>
+                    <td colspan="3" class="centro">Libranza</td>
+                </tr>
+                <tr>
+                    <td class="centro">No. Per.</td>
+                    <td class="centro">Cuota mensual</td>
+                    <td class="centro">Valor préstamo</td>
+                    <td class="centro">Plazo meses</td>
+                    <td class="centro">Cuota mensual</td>
+                    <td class="centro">Valor préstamo</td>
+                    <td class="centro">Saldo</td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="centro">Valor seguro</td>
+                    <td class="centro">Tasa</td>
+                    <td class="centro" >Total a pagar</td>
+                    <td class="centro">Valor seguro</td>
+                    <td class="centro">Tasa</td>
+                    <td colspan="2" class="centro">Total a pagar</td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                </tr>
+            </table>
+            <br>
+            <table class="centrar-tabla" border="1">
+                <tr>
+                    <td><table border="1">
+                        <tr>
+                            <td>Analizado por: <br>.</td>
+                        </tr>
+                        <tr>
+                            <td>Aprobado por: <br>. </td>
+                        </tr>
+                        <tr>
+                            <td>Fecha: <br>.</td>
+                        </tr>
+                    </table>
+                    </td>
+
+                    <td ><table border="1">
+                        <tr>
+                            <td colspan="3">Comite: <br>.</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><br></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Acta No.</td>
+                            <td>Aux. Créditos:</td>
+                            <td>Valor $</td>
+                          
+                        </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Observaciones: <br>.</td>
+                </tr>
+
+            </table>
+            <table class="centrar-tabla">
+                <tr>
+                    <td><p>Señor usuario de Confa Créditos: Recuerde que sus QRSF (Quejas, Reclamos, Sugerencias y Felicitaciones) las puede presentar ingresando a la página web 
+                        de Confa, enviar correo electrónico a la dirección servicioalcliente@confa.co o depositarlas en los buzones de sugerencias de cualquiera de nuestras sedes.</p></td>
+                </tr>
+            </table>
+        
+    </form>
+    
+</body>
+</html>
